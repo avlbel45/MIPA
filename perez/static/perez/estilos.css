@@ -1,13 +1,13 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background-color: #ffcccc;
+    font-family: •"Times New Roman", Georgia, serif;
+    margin:1000;
+    background-color: #ffb4f3;
     color: #333;
 }
 
 /* ENCABEZADO */
 header {
-    background-color: plum;
+    background-color: #f806d0;
     color: black;
     text-align: center;
     padding: 20px;
@@ -15,12 +15,12 @@ header {
 
 /* MENÚ */
 nav {
-    background-color: #c184aa;
-    padding: 10px;
+    background-color: #441f3e;
+    padding: 17px;
 }
 nav ul {
     list-style: none;
-    padding: 0;
+    padding: 15;
 }
 
 nav li {
@@ -29,18 +29,18 @@ nav li {
 }
 
 nav a {
-    color: white;
-    text-decoration: none;
+    color: rgb(167, 115, 160);
+    text-decoration: "Brush Script MT", cursive;
     font-weight: bold;
 }
 
 nav a:hover {
-    color: #ffcccc;
+    color: #c79eb1;
 }
 
 /* CONTENIDO PRINCIPAL */
 .bienvenida {
-    background-color: white;
+    background-color: #ffb4f3;
     text-align: center;
     padding: 50px 20px;
     margin: 30px;
@@ -58,8 +58,8 @@ nav a:hover {
 
 /* PIE DE PÁGINA */
 footer {
-    background-color: purple;
+    background-color: #441f3e;
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 100px;
 }

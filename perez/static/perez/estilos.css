@@ -2,7 +2,7 @@ body {
     font-family: •"Times New Roman", Georgia, serif;
     margin:1000;
     background-color: #ffb4f3;
-    color: #333;
+    color: rgb(10, 10, 10);
 }
 
 /* ENCABEZADO */
@@ -29,7 +29,7 @@ nav li {
 }
 
 nav a {
-    color: rgb(167, 115, 160);
+    color: rgb(245, 238, 244);
     text-decoration: "Brush Script MT", cursive;
     font-weight: bold;
 }
@@ -40,7 +40,7 @@ nav a:hover {
 
 /* CONTENIDO PRINCIPAL */
 .bienvenida {
-    background-color: #ffb4f3;
+    background-color: #f5ebf3;
     text-align: center;
     padding: 50px 20px;
     margin: 30px;
@@ -61,5 +61,30 @@ footer {
     background-color: #441f3e;
     color: white;
     text-align: center;
-    padding: 100px;
+    padding: 30px;
+}
+form {
+    background-color: #df90df;
+    width: 350px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+input, select, textarea{
+    width: 95%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #c79eb1;
+}
+button{
+    background-color: cornflowerblue;
+    color: #ffcbe3;
+    padding: 10px;
+    border: none;
+    width: 95%;
+    cursor: pointer;
+}
+label{
+    background-color: deepskyblue;
 }

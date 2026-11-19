@@ -1,5 +1,7 @@
 from django.shortcuts import render
 
-def inicio (request):
+def inicio(request):
     return render (request, "perez/inicio.html")
-# Create your views here.
+def registro(request):
+    return render (request, "perez/formregistro.html")
+
